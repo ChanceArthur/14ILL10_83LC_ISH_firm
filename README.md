@@ -15,7 +15,7 @@ Choose the method appropriate for your Fedora installation.
 ### Atomic (rpm-ostree)
 
 ```
-$ sudo rpm-ostree install /path/to/14ILL10_83LC_ISH_firm.rpm
+$ sudo rpm-ostree install -C /path/to/14ILL10_83LC_ISH_firm.rpm
 $ sudo rpm-ostree initramfs --enable
 $ sudo systemctl reboot
 ```
